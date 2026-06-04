@@ -120,3 +120,7 @@ Kharl Andre Miguel
 
 ---
 
+
+
+---
+*If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
