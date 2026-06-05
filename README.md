@@ -124,3 +124,12 @@ Kharl Andre Miguel
 
 ---
 *If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
+
+## 📊 Current State of the Code
+- **Tech Stack:** React, TailwindCSS, Next.js, Node.js/NPM
+- **Repository Size:** 84 tracked files
+- **Latest Update:** `3d88ebf chore: add stale issue and PR validators`
+
+
+---
+*☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
