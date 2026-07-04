@@ -4,6 +4,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import LegalMicroLink from "@/components/LegalMicroLink"
 
 export default function Component() {
   return (
@@ -357,6 +358,16 @@ export default function Component() {
           </div>
         </section>
       </main>
+
+      <footer className="border-t border-blue-200/60 bg-white/50 py-6">
+        <div className="container mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+          <p className="text-sm text-gray-600">© 2026 SmileConnect</p>
+          <div className="flex items-center gap-4">
+            <LegalMicroLink href="/privacy">Privacy</LegalMicroLink>
+            <LegalMicroLink href="/terms">Terms</LegalMicroLink>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
