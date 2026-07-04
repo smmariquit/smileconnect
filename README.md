@@ -10,7 +10,7 @@ Despite the presence of dental services, educational initiatives, established na
 
 ## The App
 
-This is a simple web app built with the MERN stack (MongoDB, Express, React, Node.js)—a popular set of tools for building modern websites—to help student dentists find patients. 
+This is a simple web app built with the MERN stack (MongoDB, Express, React, Node.js): a popular set of tools for building modern websites—to help student dentists find patients. 
 The platform connects dental schools with local health centers, underserved urban areas, and online communities, making it easier to match students needing clinical cases with people who need free dental care. This improves access to dental procedures while making better use of available clinics and staff.
 
 ## Deployment
@@ -23,35 +23,35 @@ You can try SmileConnect instantly online:
 ### Local Development (MERN Stack)
 
 1. **Clone the repository:**
-   ```bash
+ ```bash
    git clone <repo-url>
    cd smileconnect
    ```
 2. **Install dependencies:**
-   ```bash
+ ```bash
    pnpm install
    # or
    npm install
    ```
 3. **Set up environment variables:**
-   - Copy `.env.example` to `.env` and fill in your MongoDB URI and any other required variables.
+ - Copy `.env.example` to `.env` and fill in your MongoDB URI and any other required variables.
 4. **Start the development servers:**
-   - For the frontend (Next.js):
-     ```bash
+ - For the frontend (Next.js):
+ ```bash
      pnpm run dev
      # or
      npm run dev
      ```
-   - For the backend (Express.js):
-     ```bash
+ - For the backend (Express.js):
+ ```bash
      # If backend is in a separate folder, navigate there and run:
      pnpm run server
      # or
      npm run server
      ```
 5. **Access the app:**
-   - Frontend: [http://localhost:3000](http://localhost:3000)
-   - Backend API: [http://localhost:5000](http://localhost:5000) (default)
+ - Frontend: [http://localhost:3000](http://localhost:3000)
+ - Backend API: [http://localhost:5000](http://localhost:5000) (default)
 
 ---
 
@@ -100,27 +100,25 @@ flowchart TD
 
 ## Developers
 
-Simonee Ezekiel Mariquit  
-*Project Manager*  
+Simonee Ezekiel Mariquit 
+*Project Manager* 
 
-Christine May Ponciano  
-*Frontend Developer*  
+Christine May Ponciano 
+*Frontend Developer* 
 
-**JZ**  
-Junjun Zaragosa  
-*Backend Developer*  
+**JZ** 
+Junjun Zaragosa 
+*Backend Developer* 
 
-**SD**  
-Samuelson De Vera  
-*UX Designer*  
+**SD** 
+Samuelson De Vera 
+*UX Designer* 
 
-**KM**  
-Kharl Andre Miguel  
-*Data Specialist*  
+**KM** 
+Kharl Andre Miguel 
+*Data Specialist* 
 
 ---
-
-
 
 ---
 *If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
@@ -129,7 +127,6 @@ Kharl Andre Miguel
 - **Tech Stack:** React, TailwindCSS, Next.js, Node.js/NPM
 - **Repository Size:** 84 tracked files
 - **Latest Update:** `3d88ebf chore: add stale issue and PR validators`
-
 
 ---
 *☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*
