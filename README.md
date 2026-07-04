@@ -24,31 +24,31 @@ You can try SmileConnect instantly online:
 
 1. **Clone the repository:**
  ```bash
-   git clone <repo-url>
-   cd smileconnect
-   ```
+ git clone <repo-url>
+ cd smileconnect
+ ```
 2. **Install dependencies:**
  ```bash
-   pnpm install
-   # or
-   npm install
-   ```
+ pnpm install
+ # or
+ npm install
+ ```
 3. **Set up environment variables:**
  - Copy `.env.example` to `.env` and fill in your MongoDB URI and any other required variables.
 4. **Start the development servers:**
  - For the frontend (Next.js):
  ```bash
-     pnpm run dev
-     # or
-     npm run dev
-     ```
+ pnpm run dev
+ # or
+ npm run dev
+ ```
  - For the backend (Express.js):
  ```bash
-     # If backend is in a separate folder, navigate there and run:
-     pnpm run server
-     # or
-     npm run server
-     ```
+ # If backend is in a separate folder, navigate there and run:
+ pnpm run server
+ # or
+ npm run server
+ ```
 5. **Access the app:**
  - Frontend: [http://localhost:3000](http://localhost:3000)
  - Backend API: [http://localhost:5000](http://localhost:5000) (default)
@@ -70,30 +70,30 @@ You can try SmileConnect instantly online:
 
 ```mermaid
 flowchart TD
-    A["React Frontend<br>(Student + Admin Interface)"] --> B["Express.js API Server"]
-    B --> C["Node.js Runtime Environment"]
-    B --> D["MongoDB Database"]
+ A["React Frontend<br>(Student + Admin Interface)"] --> B["Express.js API Server"]
+ B --> C["Node.js Runtime Environment"]
+ B --> D["MongoDB Database"]
 
-    %% External Integrations
-    E["Facebook Graph API<br>/ Group Scraping"]
-    F["Reddit API<br>/ Community Posts"]
-    G["Barangay Health Center<br>Case Data (CSV/API)"]
+ %% External Integrations
+ E["Facebook Graph API<br>/ Group Scraping"]
+ F["Reddit API<br>/ Community Posts"]
+ G["Barangay Health Center<br>Case Data (CSV/API)"]
 
-    E -->|"Case leads"| B
-    F -->|"Case leads"| B
-    G -->|"Patient data"| B
+ E -->|"Case leads"| B
+ F -->|"Case leads"| B
+ G -->|"Patient data"| B
 
-    A -->|"HTTP Requests"| B
-    B -->|"Data Fetch / Store"| D
+ A -->|"HTTP Requests"| B
+ B -->|"Data Fetch / Store"| D
 
-    %% Styling
-    style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
-    style B fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px
-    style C fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
-    style D fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
-    style E fill:#FFF,stroke:#4267B2,stroke-width:2px
-    style F fill:#FFF,stroke:#FF4500,stroke-width:2px
-    style G fill:#FFF,stroke:#43A047,stroke-width:2px
+ %% Styling
+ style A fill:#E3F2FD,stroke:#1976D2,stroke-width:2px
+ style B fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px
+ style C fill:#E8F5E9,stroke:#388E3C,stroke-width:2px
+ style D fill:#F3E5F5,stroke:#6A1B9A,stroke-width:2px
+ style E fill:#FFF,stroke:#4267B2,stroke-width:2px
+ style F fill:#FFF,stroke:#FF4500,stroke-width:2px
+ style G fill:#FFF,stroke:#43A047,stroke-width:2px
 ```
 
 ---
