@@ -8,7 +8,7 @@ import LegalMicroLink from "@/components/LegalMicroLink"
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 scroll-smooth">
+    <div className="min-h-screen bg-[var(--sc-blue-page)] scroll-smooth">
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-6 py-4">
@@ -105,16 +105,8 @@ export default function Component() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               {/* Phone Frame */}
-              <div
-                className="w-80 h-[600px] bg-black rounded-[3rem] p-2 shadow-2xl cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-3xl active:scale-95"
-                onClick={() => {
-                  // Add a pulse animation
-                  const phone = document.querySelector(".phone-content")
-                  phone?.classList.add("animate-pulse")
-                  setTimeout(() => phone?.classList.remove("animate-pulse"), 1000)
-                }}
-              >
-                <div className="phone-content w-full h-full bg-gradient-to-b from-blue-50 to-blue-100 rounded-[2.5rem] overflow-hidden transition-all duration-300">
+              <div className="w-80 h-[600px] bg-black rounded-[3rem] p-2 shadow-2xl">
+                <div className="phone-content w-full h-full bg-[var(--sc-blue-light)] rounded-[2.5rem] overflow-hidden">
                   {/* Phone Content */}
                   <div className="p-6 space-y-6">
                     {/* App Header */}

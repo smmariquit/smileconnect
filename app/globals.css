@@ -16,6 +16,10 @@ body {
 
 @layer base {
   :root {
+    --sc-blue: #3b82f6;
+    --sc-blue-light: #dbeafe;
+    --sc-blue-surface: #bfdbfe;
+    --sc-blue-page: #eff6ff;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
